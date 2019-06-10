@@ -50,7 +50,7 @@ class FloodGame extends Component {
 
   render() {
     return (
-      <div className="content" style={{"background-color": "#1d1e19", padding: "10px"}}>
+      <div className="content" style={{"backgroundColor": "#1d1e19", padding: "10px"}}>
         <div className="header">
           <h1>Food Flood</h1>
           <div className="newgame" onClick={(e) => this.restart()}>New Game</div>

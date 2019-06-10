@@ -9,6 +9,7 @@ import banana from './banana2.png'
 
 const Cell = ({color, size}) => {
   let classString = "cell-" + size + " " + color;
+  console.log(size);
   if (color === 'red') {
 
   }
