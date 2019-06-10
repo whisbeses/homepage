@@ -35,21 +35,33 @@ body {
   width: 100% !important;
 }
 
-.ant-layout-header {
- padding: 0 !important;
+.navbar {
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: flex-end !important;
+  letter-spacing: 0.04rem !important;
+  margin: 0px 15px !important;
 }
 
-.ant-layout-header,
-.ant-layout-footer {
-  background: #aee2e8 !important;
-  color: #fff;
-  line-height: 1.5;
+img {
+  width: 15% !important;
+  max-width: 20% !important;
+  max-height: 100px !important;
+  margin: .5vw;
 }
 
-.ant-layout-footer{
-  bottom: 0 !important;
-  width: 100% !important;
-  /* height: 2.5rem; */
+a:-webkit-any-link {
+  color: black !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  justify-content: space-around !important;
+  margin-right: 20px !important;
+}
+
+.pageOptions{
+  display: flex !important;
+  justify-content: space-around !important;
+  margin-top: -40px !important;
 }
 
 .home-footer {
@@ -93,32 +105,6 @@ body {
   flex-flow: row wrap !important;
 }
 
-.content-heading {
-  text-align: center !important;
-  line-height: 30px !important;
-  font-family: Georgia, serif !important;
-  font-weight: 200 !important;
-  font-size: 2.5rem !important;
-  letter-spacing: 0.10rem !important;
-  color: white !important;
-}
-
-.content-text {
-  font-size: 21px;
-  line-height: 32px;
-  font-family: Georgia, serif !important;
-  letter-spacing: 0.10rem !important;
-  color: white !important;
-  margin-right: 350px;
-  margin-left: 350px;
-}
-
-img {
-  width: 45% !important;
-  max-width: 100% !important;
-  max-height: 450px !important;
-  margin: .5vw;
-}
 
 /* User Page */
 .userPage {
